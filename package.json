@@ -1,12 +1,12 @@
 {
-  "name": "egg-apollo-server",
-  "version": "0.3.0",
-  "description": "The apollo-server-koa plugin in egg.",
+  "name": "egg-qpjoy-apollo-server",
+  "version": "0.0.5",
+  "description": "The apollo-server-koa plugin in egg by qpjoy.",
   "directories": {
     "lib": "lib"
   },
   "eggPlugin": {
-    "name": "apollo-server"
+    "name": "graphql"
   },
   "keywords": [
     "egg",

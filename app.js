@@ -7,7 +7,7 @@ class AppBootHook {
   }
   configWillLoad() {
     require('./lib/load_schema_v2')(this.app);
-    require('./lib/load_connector')(this.app);
+    // require('./lib/load_connector')(this.app);
   }
 }
 module.exports = AppBootHook;

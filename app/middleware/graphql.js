@@ -10,6 +10,7 @@ const GraphqlServer = Symbol.for('Egg#graphqlServer');
  */
 
 module.exports = (_, app) => {
+  console.log(app, app.middlewares, _, ' - - - this is app request');
   let graphqlConfig = app.config.graphql;
   if (typeof graphqlConfig === 'function') {
     graphqlConfig = graphqlConfig(app);
